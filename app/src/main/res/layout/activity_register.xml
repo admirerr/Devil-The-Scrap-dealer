@@ -12,7 +12,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign Up"
+        android:text="@string/sign_up"
         android:textColor="#FFF"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,9 +27,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Here"
+        android:text="@string/here"
         android:textColor="#DFE2E3"
-        android:textSize="21dp"
+        android:textSize="21sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView"
@@ -42,7 +42,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
-        android:hint="Full Name"
+        android:hint="@string/full_name"
         android:inputType="textPersonName"
         android:padding="10dp"
         android:textColor="#FFF"
@@ -53,7 +53,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView2"
         app:layout_constraintVertical_bias="0.1399999"
-        />
+        android:autofillHints="" />
 
 
     <EditText
@@ -64,7 +64,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:hint="Email"
+        android:hint="@string/email"
         android:inputType="textPersonName"
         android:padding="10dp"
         android:textColor="#FFF"
@@ -73,7 +73,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/fullname"
-        />
+        android:autofillHints=""
+        tools:ignore="TextFields" />
 
     <EditText
         android:id="@+id/password"
@@ -83,7 +84,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:hint="Password"
+        android:hint="@string/password"
         android:inputType="textPersonName"
         android:padding="10dp"
         android:textColor="#FFF"
@@ -92,7 +93,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/email"
-        />
+        tools:ignore="TextFields"
+        android:autofillHints="" />
 
 
     <EditText
@@ -103,7 +105,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:hint="Phone"
+        android:hint="@string/phone"
         android:inputType="textPersonName"
         android:padding="10dp"
         android:textColor="#FFF"
@@ -112,7 +114,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/password"
-        />
+        android:autofillHints=""
+        tools:ignore="TextFields" />
 
 
     <Button
@@ -122,7 +125,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
         android:layout_marginTop="32dp"
-        android:text="Register"
+        android:text="@string/register"
         android:textSize="20sp"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -136,8 +139,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
-        android:text="Already Account ? Login Here"
-        android:textSize="17dp"
+        android:text="@string/already_account_login_here"
+        android:textSize="17sp"
         android:textColor="#FFBF00"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -14,14 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-
-                startActivity(new Intent(getApplicationContext(),SplashScreen.class));
-
-
-            }
-        }, 3500);
+        new Handler().postDelayed(() -> startActivity(new Intent(getApplicationContext(),SplashScreen.class)), 3500);
     }
 }
