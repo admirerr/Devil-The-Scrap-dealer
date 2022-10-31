@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Login System</string>
+    <string name="todo">TODO</string>
+    <string name="login_system">Login System</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="here">Here</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone">Phone</string>
+    <string name="register">Register</string>
+    <string name="already_account_login_here">Already Account ? Login Here</string>
+    <string name="email">Email</string>
 </resources>
