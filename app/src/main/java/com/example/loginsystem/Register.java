@@ -133,7 +133,7 @@ public class Register extends AppCompatActivity {
                     }
                 });
 
-                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                startActivity(new Intent(getApplicationContext(),Dashboard.class));
 
 
             }
