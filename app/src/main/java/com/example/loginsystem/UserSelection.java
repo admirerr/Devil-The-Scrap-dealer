@@ -27,7 +27,7 @@ public class UserSelection extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), RegisterDealer.class);
+                Intent intent = new Intent(view.getContext(), Register.class);
                 view.getContext().startActivity(intent);}
         });
 
@@ -35,7 +35,7 @@ public class UserSelection extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), RegisterAdmin.class);
+                Intent intent = new Intent(view.getContext(), Register.class);
                 view.getContext().startActivity(intent);}
         });
 
