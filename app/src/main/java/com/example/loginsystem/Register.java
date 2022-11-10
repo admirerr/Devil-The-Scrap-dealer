@@ -64,7 +64,7 @@ public class Register extends AppCompatActivity {
 
 
         if(fAuth.getCurrentUser()!=null){
-            startActivity(new Intent(getApplicationContext(),UserSelection.class));
+            startActivity(new Intent(getApplicationContext(), UserSelection.class));
             finish();
         }
 
