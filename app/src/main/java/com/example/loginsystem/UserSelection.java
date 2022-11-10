@@ -19,7 +19,7 @@ public class UserSelection extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), Login.class);
+                Intent intent = new Intent(view.getContext(), Register.class);
                 view.getContext().startActivity(intent);}
         });
 
